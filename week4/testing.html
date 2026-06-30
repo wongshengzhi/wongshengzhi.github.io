@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .child {
+            width: 50%;
+        }
+
+        /*Mobile VIEW **/
+        @media screen and (max-width:680px) {
+            .container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .child {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child">1ggggggggggg gggggggg gggggggg gggggggggg1ggggggggggg gggggggg gggggggg
+            gggggggggg1ggggggggggg gggggggg gggggggg gggggggggg1ggggggggggg gggggggg gggggggg gggggggggg1ggggggggggg
+            gggggggg gggggggg gggggggggg1ggggggggggg gggggggg gggggggg gggggggggg1ggggggggggg gggggggg gggggggg
+            gggggggggg1ggggggggggg gggggggg gggggggg ggggggggggg</div>
+        <div class="child">2aaaaa aaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaaa</div>
+        <div class="child">3aaaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaaaaaa</div>
+    </div>
+</body>
+
+</html>
