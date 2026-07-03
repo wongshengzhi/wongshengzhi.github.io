@@ -24,6 +24,11 @@
             gap: 60px;
         }
 
+        .menu {
+            display: none;
+            width: 20px;
+        }
+
         .orange {
             color: #ff5a1f;
             font-weight: bold;
@@ -32,17 +37,17 @@
         .container2 img {
             width: 20px;
             height: auto;
+            margin-left: auto;
         }
 
         .logo img {
             width: 180px;
-
         }
 
         .container2 {
             display: flex;
             align-items: center;
-            gap: 18px;
+            gap: 12px;
         }
 
         .icon {
@@ -64,6 +69,25 @@
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
+        }
+
+
+
+        /*SMALL TABLET VIEW **/
+        @media screen and (max-width:900px) {
+
+            .header {
+                display: none;
+            }
+
+            .button {
+                display: none;
+            }
+
+            .menu {
+                display: block;
+            }
+
         }
     </style>
 </head>
@@ -87,6 +111,7 @@
             <img src="image/Group 64.png" class="icon">
             <div>555-123-4567</div>
             <button class="button">Contact</button>
+            <img src="image/Menu (1).png" class="menu">
         </div>
 
     </div>
