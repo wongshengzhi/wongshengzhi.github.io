@@ -2,10 +2,195 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+
+        header {
+            background: #49b8f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+
+            border-radius: 50%;
+        }
+
+        .exercise {
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 25px;
+
+            flex-wrap: wrap;
+        }
+
+        .week5 {
+            width: 830px;
+        }
+
+        .section {
+
+            width: 250px;
+
+            background: rgba(255, 255, 255, .8);
+
+            border-radius: 12px;
+
+            padding: 20px;
+
+            text-align: center;
+        }
+
+        .social {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .social img {
+            width: 32px;
+            height: 32px;
+        }
+
+        footer {
+
+            background: #49b8f9;
+
+            padding: 20px;
+
+            text-align: center;
+        }
+
+        main {
+
+            background-image: url("image/background.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .section {
+
+            background: rgba(255, 255, 255, 0.75);
+        }
+
+        .section hr {
+            margin: 15px 0;
+        }
+
+        .logo img {
+            height: 30px;
+        }
+
+
+        @media(max-width:768px) {
+
+            .exercise {
+
+                flex-direction: column;
+
+                align-items: center;
+            }
+
+            header {
+
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="social">
+            <a href="#"><img src="image/twitter.png"></a>
+            <a href="#"><img src="image/linkedin.png"></a>
+            <a href="#"><img src="image/github.png"></a>
+        </div>
+    </header>
+
+    <main>
+        <img src="image/shengzhi.png" class="profile">
+
+        <h1>Your Name</h1>
+        <h3>Web Publishing</h3>
+
+        <p>
+            Hello! I'm Wong Sheng Zhi,a logo designer.
+            I love playing basketball and i love painting.Welcome to my personal page!
+        </p>
+
+
+        <section class="exercise">
+
+            <div class="section">
+                <h2>Week 2</h2>
+
+                <a href="#">Exercise 1</a><br>
+
+                <a href="#">Exercise 2</a>
+            </div>
+
+            <div class="section">
+                <h2>Week 3</h2>
+
+                <a href="#">Exercise 1</a><br>
+
+                <a href="#">Exercise 2</a>
+            </div>
+
+            <div class="section">
+                <h2>Week 4</h2>
+
+                <a href="#">Exercise 1</a><br>
+
+                <a href="#">Exercise 2</a>
+            </div>
+
+            <div class="section">
+                <h2>Week 5</h2>
+
+                <a href="#">Exercise 1</a><br>
+
+                <a href="#">Exercise 2</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="#"><img src="image/twitter.png"></a>
+            <a href="#"><img src="image/linkedin.png"></a>
+            <a href="#"><img src="image/github.png"></a>
+        </div>
+
+        <p>©2026 Wong Sheng Zhi</p>
+
+    </footer>
+
+
+
 
 </body>
 
