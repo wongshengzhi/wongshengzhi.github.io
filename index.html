@@ -27,12 +27,11 @@
         .exercise {
 
             display: flex;
-
             justify-content: center;
-
             gap: 25px;
-
             flex-wrap: wrap;
+            max-width: 850px;
+            margin: 0 auto;
         }
 
         .week5 {
@@ -90,9 +89,29 @@
             margin: 15px 0;
         }
 
-        .logo img {
-            height: 30px;
+        .section h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
+
+        .calendar {
+            width: 24px;
+            height: 24px;
+        }
+
+        .h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .footer {
+            justify-content: center;
+        }
+
 
 
         @media(max-width:768px) {
@@ -110,6 +129,7 @@
 
                 gap: 15px;
             }
+
 
         }
     </style>
@@ -143,32 +163,46 @@
         <section class="exercise">
 
             <div class="section">
-                <h2>Week 2</h2>
 
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 2
+                </h2>
+
+                <hr>
                 <a href="#">Exercise 1</a><br>
 
                 <a href="#">Exercise 2</a>
             </div>
 
             <div class="section">
-                <h2>Week 3</h2>
-
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 3
+                </h2>
+                <hr>
                 <a href="#">Exercise 1</a><br>
 
                 <a href="#">Exercise 2</a>
             </div>
 
             <div class="section">
-                <h2>Week 4</h2>
-
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 4
+                </h2>
+                <hr>
                 <a href="#">Exercise 1</a><br>
 
                 <a href="#">Exercise 2</a>
             </div>
 
-            <div class="section">
-                <h2>Week 5</h2>
-
+            <div class="section week5 ">
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 5
+                </h2>
+                <hr>
                 <a href="#">Exercise 1</a><br>
 
                 <a href="#">Exercise 2</a>
