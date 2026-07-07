@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #contianer>div {
+            width: calc(100%/4-7.5px);
+
+        }
+
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+
+        #main div {
+            width: calc(100%/4);
+            height: 50px;
+            padding: 10px;
+            border: 1px solid black;
+
+
+        }
+
+        @media(max-width:400px) {
+            #main div {
+                width: calc(100%/2);
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The flex-wrap Property</h1>
+    <div id="main">
+        <div style="background-color: lightblue;">A</div>
+        <div style="background-color: lightcoral;">B</div>
+        <div style="background-color: lightgreen;">C</div>
+        <div style="background-color: lightyellow;">D</div>
+        <div style="background-color: lightpink;">E</div>
+        <div style="background-color: lightgray;">F</div>
+    </div>
+</body>
+
+
+
+
+</html>
