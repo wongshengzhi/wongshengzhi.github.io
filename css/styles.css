@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
 
 header {
-    background: #6bc9ff;
+    background: #61c3fc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +53,7 @@ header {
 
 footer {
 
-    background: #6bc9ff;
+    background: #61c3fc;
     padding: 20px;
     text-align: center;
 }
