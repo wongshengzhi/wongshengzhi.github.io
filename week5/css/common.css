@@ -1,4 +1,4 @@
-container1 {
+.container1 {
     max-width: 1440px;
     max-height: 863px;
     padding: 30px 10px;
@@ -114,4 +114,23 @@ a {
     font-size: 18px;
     line-height: 27px;
     margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container1 {
+        max-height: none;
+        padding: 20px 24px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
 }

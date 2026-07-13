@@ -100,7 +100,8 @@
 .title {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
 .number {
@@ -197,20 +198,14 @@
 .team-button button {
     width: 270px;
     height: 68px;
-
     background: #191A23;
     color: white;
-
     border: none;
     border-radius: 14px;
-
     font-size: 20px;
     font-family: "Space Grotesk", sans-serif;
 
-    cursor: pointer;
 }
-
-
 
 .container10 {
     max-width: 1240px;
@@ -305,9 +300,6 @@
     outline: none;
 }
 
-.subscribe input::placeholder {
-    color: white;
-}
 
 .subscribe button {
     width: 250px;
@@ -340,10 +332,35 @@
     text-decoration: underline;
 }
 
+.service {
+    display: inline-block;
+    background: #B9FF66;
+    color: #191A23;
+    padding: 6px 12px;
+    margin: 0;
+}
+
+.des {
+    max-width: 580px;
+    margin: 0;
+}
+
 /*MOBILE TABLET VIEW **/
 @media screen and (max-width:760px) {
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
 
-    /* Case Studies */
+    .service {
+        margin: 0 auto;
+    }
+
+    .des {
+        text-align: center;
+    }
 
     .container7 {
         padding: 40px 16px;
@@ -351,14 +368,16 @@
 
     .case {
         display: flex;
-        overflow-x: auto;
-        padding: 25px;
-        gap: 20px;
-        border-radius: 30px;
+        flex-direction: column;
+
+
     }
 
+
+
     .study {
-        min-width: 250px;
+        width: 100%;
+
     }
 
     .study p {
@@ -371,5 +390,154 @@
     }
 
     .line {
-        display: none;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: white;
     }
+
+    /* Working Process */
+    .container8 {
+        padding: 40px 16px;
+    }
+
+    .process {
+        gap: 18px;
+    }
+
+    .step {
+        padding: 20px;
+        border-radius: 24px;
+    }
+
+    .number {
+        font-size: 32px;
+    }
+
+    .title {
+        gap: 15px;
+
+    }
+
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .title h3 {
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .step p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    /* Member */
+
+    .container9 {
+        padding: 40px 16px;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .member {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        border-radius: 24px;
+    }
+
+    .member-profile img {
+        width: 70px;
+    }
+
+    .info h3 {
+        font-size: 18px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .member p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .team-button {
+        justify-content: center;
+        margin: 30px auto;
+    }
+
+    .team-button button {
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .container10 {
+        padding: 0 16px;
+    }
+
+    .footer {
+        padding: 30px 20px;
+        border-radius: 24px 24px 0 0;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .subscribe {
+        width: 100%;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
