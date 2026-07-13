@@ -120,3 +120,67 @@
     width: 48px;
     height: 48px;
 }
+
+.container9 {
+    max-width: 1240px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.team {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.member {
+    width: 380px;
+    height: 330px;
+    background: #ffffff;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.member-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.member-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.member-profile img {
+    width: 90px;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.info p {
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+.linkedin {
+    width: 34px;
+}
+
+.member hr {
+    margin: 28px 0;
+}
+
+.member p {
+    font-size: 18px;
+    line-height: 28px;
+}
