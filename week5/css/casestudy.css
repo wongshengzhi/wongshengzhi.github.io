@@ -185,6 +185,33 @@
     line-height: 28px;
 }
 
+.team-button {
+    max-width: 1240px;
+    margin: 40px auto 80px;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team-button button {
+    width: 270px;
+    height: 68px;
+
+    background: #191A23;
+    color: white;
+
+    border: none;
+    border-radius: 14px;
+
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+
+    cursor: pointer;
+}
+
+
+
 .container10 {
     max-width: 1240px;
     margin: 60px auto;
@@ -312,3 +339,37 @@
     color: white;
     text-decoration: underline;
 }
+
+/*MOBILE TABLET VIEW **/
+@media screen and (max-width:760px) {
+
+    /* Case Studies */
+
+    .container7 {
+        padding: 40px 16px;
+    }
+
+    .case {
+        display: flex;
+        overflow-x: auto;
+        padding: 25px;
+        gap: 20px;
+        border-radius: 30px;
+    }
+
+    .study {
+        min-width: 250px;
+    }
+
+    .study p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .learn a {
+        font-size: 16px;
+    }
+
+    .line {
+        display: none;
+    }
